@@ -1,0 +1,27 @@
+AllCops:
+  TargetRubyVersion: 2.5
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/MixinUsage:
+  Exclude:
+    - 'bin/setup'
+    - 'bin/update'
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Metrics/LineLength:
+  Max: 80
+  Exclude:
+    - 'config/**/*'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'db/seeds.rb'
+
+Style/Documentation:
+  Enabled: false
