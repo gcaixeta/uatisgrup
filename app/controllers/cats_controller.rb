@@ -3,7 +3,7 @@ class CatsController < ApplicationController
 
   # GET /cats or /cats.json
   def index
-    @@asas = 1
+    @@asas = 154545
     asd = 'asassa'
     afg = "asassa"
     @@as2as = asd + afg
