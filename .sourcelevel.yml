@@ -1,0 +1,18 @@
+engines:
+  brakeman:
+    enabled: true
+  rubocop:
+      enabled: true
+      channel: rubocop-0-52
+  bundler-audit:
+    enabled: true
+  reek:
+    enabled: true
+  duplication:
+    enabled: true
+    exclude_paths:
+      - app/views/**/*
+exclude_paths:
+- db
+- config
+- test
