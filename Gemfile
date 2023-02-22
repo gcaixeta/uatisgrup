@@ -45,7 +45,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   # Code analysis
-  gem 'rubocop', '~> 0.52.1', require: false
+  gem 'rubocop', '~> 1.46.0', require: false
   gem 'rubycritic', require: false
 end
 
